@@ -1,6 +1,9 @@
 # wechat-weather-demo
 
+![](http://ww3.sinaimg.cn/large/006y8lVagw1f8652s80mej30hq0vigmp.jpg)
+
 ## 微信小程序
+
 最近微信推出了 [小程序](https://mp.weixin.qq.com/debug/wxadoc/dev/index.html) 平台，掀起一股热潮；于是凑热闹随时写了个简单的天气 Demo，体验了一下微信小程序。
 
 ## 关于 Demo
