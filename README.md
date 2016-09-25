@@ -1,6 +1,6 @@
 # wechat-weather-demo
 
-![](http://ww3.sinaimg.cn/large/006y8lVagw1f8652s80mej30hq0vigmp.jpg)
+![](http://ww2.sinaimg.cn/large/006y8lVagw1f865bub8tsj309e0go74k.jpg)
 
 ## 微信小程序
 
