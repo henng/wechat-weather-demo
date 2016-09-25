@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<view class="container">
+  <view  bindtap="bindViewTap" class="userInfo">
+    <text class="userinfo-nickname">Welcome, {{userInfo.nickName}}</text>
+  </view>
+  <view class="userCity">
+    <text class="user-nickname">{{weather.location.city}}</text>
+    <text class="user-region">{{weather.location.region}}, {{weather.location.country}}</text>
+  </view>
+
+  <view class="page-body">
+    <view class="page-body-wrapper">
+      <view class="page-body-info">
+        <block wx:if="{{hasLocation === false}}">
+          <text class="page-body-text">Unknow Location</text>
+        </block>
+        <block wx:if="{{hasLocation === true}}">
+          <view class="page-body-text-location">    
+            <text class="condition-time">Time: {{weather.item.condition.date}}</text>
+            <text class="condition-temp">Temperature: {{weather.item.condition.temp}} ℃</text>
+            <text class="condition-text">Weather: {{weather.item.condition.text}}</text>
+          </view>
+        </block>
+      </view>
+    
+    </view>
+  </view>
+
+</view>
